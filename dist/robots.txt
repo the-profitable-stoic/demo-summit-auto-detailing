@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-summit-auto-detailing.dream-surge.com/sitemap-index.xml

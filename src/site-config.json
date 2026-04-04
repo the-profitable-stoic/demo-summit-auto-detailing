@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Summit Auto Detailing",
+    "phone": "555-aut-r91",
+    "category": "auto-detailing",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-detailing-mountain-bold",
+      "categoryGroup": "auto-detailing",
+      "name": "Mountain Bold",
+      "recipeFile": "auto-detailing/mountain-bold.astro",
+      "colors": {
+        "primary": "#030712",
+        "primaryDark": "#02050d",
+        "primaryLight": "#c0c1c4",
+        "secondary": "#111827",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#030712",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-detailing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Precision Detailing for Savannah's Autos",
+      "heroSubline": "Protect your vehicle from coastal salt air and relentless humidity. We treat every detail like it’s our own.",
+      "aboutTitle": "Savannah’s Trusted Auto Care Specialists",
+      "aboutText": [
+        "Founded in 2012, Summit Auto Detailing began with a single goal: to combat Savannah’s harsh coastal elements with meticulous paint corrections and interior shield treatments. Our team grew from a two-car garage near Starland District to a 20-person crew serving all of Chatham County.",
+        "We approach detailing as preservationists—removing salt residues before they etch, conditioning sun-baked leather before it cracks, and neutralizing mold spores trapped in humid interiors. Every swirl mark matters here.",
+        "When we’re not restoring vintage Corvettes from the Historic District or detailing family SUVs in Pooler, we sponsor youth programs at Forsyth Park and donate detailing services to local first responders."
+      ],
+      "valueProps": [
+        {
+          "title": "Coastal Defense",
+          "description": "Ceramic coatings formulated for salt air resistance, tested against Tybee Island conditions."
+        },
+        {
+          "title": "Humidity Guardians",
+          "description": "EPA-registered antimicrobial treatments prevent mildew in ventilation systems and upholstery."
+        },
+        {
+          "title": "Historic Respect",
+          "description": "Hand-wash techniques for classic cars, avoiding automated brushes that harm vintage finishes."
+        },
+        {
+          "title": "Neighborhood Flexibility",
+          "description": "Mobile units service downtown Savannah’s tight streets and suburban driveways with equal care."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Defense Against Coastal Wear",
+      "ctaSubline": "Book a consultation today—we’ll assess your vehicle’s specific needs under Savannah’s relentless sun."
+    },
+    "services": [
+      {
+        "slug": "salt-air-protection-coating",
+        "name": "Salt Air Protection Coating",
+        "shortDescription": "Ceramic barrier against corrosive coastal elements eating your paint.",
+        "description": "Savannah’s salt-laden breezes from the Wilmington River accelerate oxidation, leaving behind a chalky haze on unprotected paint. Our 9H ceramic coating bonds at molecular level, creating an impenetrable shield that repels salt deposits and airborne contaminants.\n\nWe start with a triple-stage decontamination wash using pH-neutral solutions to strip existing salt residues. After clay bar treatment and precision polishing, the nano-ceramic formula cures under infrared lamps for maximum hardness. The result: a self-cleaning surface that makes weekly washes at home effortless, especially for downtown residents dealing with constant pollen and construction dust.",
+        "process": [
+          "Step 1: Foam cannon wash with salt-neutralizing citrus shampoo",
+          "Step 2: Iron particle remover application for embedded contaminants",
+          "Step 3: Paint correction with rotary polisher (single-stage for daily drivers)",
+          "Step 4: Hand-applied ceramic coating cured for 48 hours indoors"
+        ],
+        "benefits": [
+          "5-year protection against saltwater etching",
+          "UV inhibitors prevent Savannah’s sun from fading trims",
+          "Hydrophobic layer sheds rain from sudden afternoon storms",
+          "Maintains showroom gloss between Historic District parades"
+        ],
+        "faq": [
+          {
+            "question": "How does this differ from wax in our humid climate?",
+            "answer": "Traditional wax melts above 90°F and washes away in summer storms. Our ceramic coating withstands 160°F and bonds permanently, making it ideal for parked cars along River Street’s heat-radiating pavement."
+          },
+          {
+            "question": "Will this prevent rust on older vehicles?",
+            "answer": "While not a rustproofing solution, the coating drastically slows oxidation by denying salt moisture direct metal contact. We recommend undercarriage treatments for pre-2000 models kept near marshlands."
+          }
+        ]
+      },
+      {
+        "slug": "mold-resistant-interior-detailing",
+        "name": "Mold-Resistant Interior Detailing",
+        "shortDescription": "Complete microbial defense for Savannah’s swampy interiors.",
+        "description": "Nothing survives Savannah’s humidity—except mold spores thriving in your AC vents and carpet fibers. Our antimicrobial interior service attacks the problem at its source with hospital-grade disinfectants and moisture-wicking extracts.\n\nWe begin by fogging the cabin with an EPA-registered biocide that permeates leather pores and fabric weaves. Every surface gets hand-treated: we remove seat covers to steam-clean padding where mildew grows unseen, flush drain tubes clogged with palmetto debris, and apply enzyme breakers to organic stains in family vans. The final step injects a slow-release protectant into ventilation systems, creating a 12-month barrier against spore regrowth—critical for convertible owners parking near Forsyth Park’s sprinklers.",
+        "process": [
+          "Step 1: Thermal imaging identifies hidden moisture pockets",
+          "Step 2: Ozone generator treatment kills airborne spores",
+          "Step 3: Extract standing water from floorboard sound deadening",
+          "Step 4: Application of botanical antimicrobial sealant"
+        ],
+        "benefits": [
+          "Eliminates musty odors from flood-prone Ardsley Park streets",
+          "Protects sensitive electronics in dashboards",
+          "Food-safe formulas for family vehicles",
+          "Reduces allergy triggers in recirculated air"
+        ],
+        "faq": [
+          {
+            "question": "Is this safe for infants’ car seats?",
+            "answer": "We use plant-based antimicrobials on all child-contact surfaces—the same compounds used in Savannah pediatric clinics. All residues dissipate within 2 hours of application."
+          },
+          {
+            "question": "How often should this be repeated?",
+            "answer": "Annual treatments suffice for garage-kept vehicles. Convertibles and work trucks exposed to marshland fog benefit from semi-annual reapplications."
+          }
+        ]
+      },
+      {
+        "slug": "vintage-paint-revitalization",
+        "name": "Vintage Paint Revitalization",
+        "shortDescription": "Hand-restored brilliance for classic cars facing Southern decay.",
+        "description": "The Historic District’s cobblestones and live oak shade create the perfect storm for single-stage paint deterioration. Our vintage specialists revive lacquer finishes using techniques perfected on Savannah’s Concours d’Elegance winners.\n\nWe start by assessing decades of embedded contaminants—iron particles from Talmadge Bridge traffic, oxidized pollen layers, and embedded Spanish moss fibers. Using sheepskin pads and vintage-style glazes, we gradually restore clarity without thinning fragile original paint. For chrome accents corroded by salty fog, we employ aluminum foil polishing techniques that outperform chemical dips. The process concludes with a carnuba-rich sealant that mimics factory-applied finishes, ensuring your ’67 Mustang looks show-ready beneath the oaks of Monterey Square.",
+        "process": [
+          "Step 1: Hand wash with distilled water to prevent mineral spotting",
+          "Step 2: Mineral spirits removal of old wax buildup in crevices",
+          "Step 3: Rotary polishing with period-correct abrasive grades",
+          "Step 4: Application of breathable glaze for depth without plasticizers"
+        ],
+        "benefits": [
+          "Preserves patina while removing environmental damage",
+          "Corrects spiderwebbing from palmetto frond scratches",
+          "Non-abrasive for fragile lacquers",
+          "Enhances value for auction-bound classics"
+        ],
+        "faq": [
+          {
+            "question": "Can you match old Savannah race car livery?",
+            "answer": "Our color library includes formulas for 1950s Savannah Speedway team colors. We’ll hand-blend to match sun-faded original stripes."
+          },
+          {
+            "question": "Will this remove Historic District parking sticker residue?",
+            "answer": "Yes—we use controlled heat and citrus solvents that lift adhesives without damaging underlying layers, a frequent need for downtown residents."
+          }
+        ]
+      },
+      {
+        "slug": "hurricane-prep-detailing",
+        "name": "Hurricane Prep Detailing",
+        "shortDescription": "Storm-proofing treatments before evacuation orders hit.",
+        "description": "When tropical storm warnings flash across WTOC, Savannahians know two things: board the windows, and protect your car’s interior from flood threats. Our hurricane prep service goes beyond waterproofing—it’s a full-system preservation protocol.\n\nWe remove all organic materials (maps, tissues, crumbs) that mold would feast on during prolonged humidity. Door seals get treated with dielectric grease to prevent seawater infiltration, while convertible tops receive waterproofing injections at stress points. Most critically, we apply a vapor barrier to electronic modules under seats—the same technique used by Port of Savannah fleet vehicles. For clients evacuating, we include silica gel canisters in storage compartments to absorb 12oz of moisture during garage confinement. Post-storm, we offer priority inspections to check for saltwater intrusion before corrosion begins.",
+        "process": [
+          "Step 1: Complete interior extraction to 1/4\" below flood line",
+          "Step 2: Corrosion inhibitor application to all exposed metals",
+          "Step 3: ECU and fuse box nano-coating",
+          "Step 4: Emergency contact info etched into window trim"
+        ],
+        "benefits": [
+          "Prevents mold colonization during extended power outages",
+          "Protects sensitive hybrid/EV components",
+          "Maintains resale value after storm events",
+          "Priority post-storm inspection scheduling"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you service my fleet before evacuation?",
+            "answer": "With 48 hours’ notice, our mobile teams can detail 12 vehicles/day at your business location. We prioritize first responder fleets."
+          },
+          {
+            "question": "Does this help with insurance claims?",
+            "answer": "Yes—we document pretreatment conditions with timestamped 360° scans, satisfying most insurers’ preventative care requirements."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-lease-return-detailing",
+        "name": "Luxury Lease Return Detailing",
+        "shortDescription": "Turn-in perfection for Savannah’s executive lessees.",
+        "description": "Southside BMW and Critz Mercedes demand flawless returns—especially when lease terms coincide with our pollen-heavy springs. We exceed dealership standards with a 212-point checklist tailored to Lowcountry wear patterns.\n\nEvery inch gets scrutinized: we measure carpet pile depth to confirm no marsh mud remains, use borescopes to inspect vent ducts for accumulated sand, and replicate factory leather grain patterns on repaired bolsters. For wheel rims curbed on River Street’s uneven edges, we employ a proprietary alloy welding technique that avoids the ‘refinished’ look dealerships penalize. The final touch is a dealership-certified odor treatment, eliminating any trace of cigars from golf trips to The Landings or fish smells from Tybee excursions.",
+        "process": [
+          "Step 1: Dealership-specific wear measurement documentation",
+          "Step 2: Diamond-cut wheel restoration matching OEM finish",
+          "Step 3: Leather grain replication for repaired surfaces",
+          "Step 4: Certification package with before/after scans"
+        ],
+        "benefits": [
+          "Average $1,200 reduction in lease charges",
+          "Meets European delivery program standards",
+          "Removes red clay staining from golf shoes",
+          "24-hour rush service for sudden lease terminations"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix Hutchinson Island valet scratches?",
+            "answer": "Our paint correction specialists blend hotel valet marks so precisely that even under The DeSoto’s porte-cochere lighting, repairs are undetectable."
+          },
+          {
+            "question": "Do you handle exotic materials like carbon fiber?",
+            "answer": "Yes—we’re one of few detailers in Georgia certified to work with McLaren’s UV-sensitive clears and Porsche’s matte finishes, both common in The Landings’ collections."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Salt Air Protection Coating",
+        "text": "After 3 years parked near the docks, my F-150’s hood was covered in salt pits. Summit removed every trace and applied their ceramic coating. Six months later, even after tropical storm flooding, water still beads like it’s fresh from the factory. Worth every penny for coastal owners.",
+        "date": "2025-03-14"
+      },
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Vintage Paint Revitalization",
+        "text": "The team saved my ‘72 Corvette’s original Mille Miglia Red paint after years under moss-draped oaks. They found a hidden dent near the fuel cap and corrected it without repainting—just like I asked. Now it looks showroom-fresh at Cars on Broughton events.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Lila & James W.",
+        "rating": 5,
+        "service": "Mold-Resistant Interior Detailing",
+        "text": "Our minivan smelled like a wet dog after the kids tracked in marsh mud all winter. Summit pulled up the seats and found mold growing under the padding. Their antimicrobial treatment eliminated the smell completely, and they even Scotchgarded the booster seats. Lifesavers!",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Dr. Patel",
+        "rating": 5,
+        "service": "Luxury Lease Return Detailing",
+        "text": "The Audi dealership charged $3,500 for ‘excessive wear’ on my last lease. This time, Summit detailed my A6 before turn-in. The dealer’s inspector found zero deductions—their alloy wheel repair was indistinguishable from factory finish. Saved me thousands.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Captain Ryan B.",
+        "rating": 5,
+        "service": "Hurricane Prep Detailing",
+        "text": "When Hurricane Idalia threatened, Summit treated my work truck’s electronics with their waterproof coating. Floodwaters reached the door sills, but after drying out, everything worked perfectly—no corrosion in the trailer light module where it usually fails. Will never skip this service again.",
+        "date": "2024-08-30"
+      },
+      {
+        "name": "Sophia K.",
+        "rating": 5,
+        "service": "Salt Air Protection Coating",
+        "text": "I’ve tried every detailer in Pooler, but none compare to Summit’s ceramic work. They noticed salt creeping into my door seams—something others missed—and sealed it with a special cavity wax. My mechanic said it’s the cleanest undercarriage he’s seen on a 5-year-old coastal car.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Savannah Auto Detailing | Salt Air & Humidity Protection",
+        "description": "Specialized auto detailing combating Savannah’s coastal corrosion and mold-causing humidity. Ceramic coatings, antimicrobial treatments, and classic car restoration."
+      },
+      "about": {
+        "title": "About Summit Auto Detailing | Savannah’s Coastal Experts",
+        "description": "Founded in 2012, we protect vehicles from Tybee salt spray and Historic District humidity with obsessive attention to paint and interior preservation."
+      },
+      "services": {
+        "title": "Savannah Auto Detailing Services | Summit Specialties",
+        "description": "Tailored solutions: hurricane prep coatings, mold-resistant interiors, vintage paint revival, and lease return detailing for Savannah’s unique climate challenges."
+      },
+      "contact": {
+        "title": "Contact Summit Auto Detailing | Savannah, GA",
+        "description": "Schedule coastal-proof detailing in Savannah. Mobile service available throughout Chatham County. Call 555-aut-r91 for immediate assistance."
+      },
+      "reviews": {
+        "title": "Savannah Auto Detailing Reviews | Summit Clients",
+        "description": "See how Summit Auto Detailing protects vehicles from salt air, mold, and storm damage. 97% satisfaction across 800+ Savannah area details."
+      },
+      "service-areas": {
+        "title": "Savannah Auto Detailing Service Areas | GA",
+        "description": "Serving Savannah, Pooler, Tybee Island, and 10+ Chatham County communities with specialized mobile detailing for coastal conditions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Savannah",
+        "slug": "savannah-ga",
+        "state": "GA",
+        "content": "Summit Auto Detailing is proud to serve the beautiful city of Savannah, GA. Known for its historic charm and stunning architecture, Savannah is a city that takes pride in its appearance. Our expert detailing services help keep your vehicle looking as pristine as the city itself. Whether you need a quick wash or a full interior and exterior detail, we've got you covered. With our attention to detail and commitment to quality, your car will shine like new. Savannah's humid climate can be tough on your vehicle's exterior, but our protective coatings and regular maintenance plans can help preserve your car's finish.",
+        "localContext": "Savannah's historic district and coastal location make it a popular tourist destination, with many residents and visitors alike wanting to maintain their vehicles' appearance.",
+        "nearbyAreas": [
+          "Pooler",
+          "Garden City",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Pooler",
+        "slug": "pooler-ga",
+        "state": "GA",
+        "content": "Located just west of Savannah, Pooler is a growing community with a mix of residential and commercial areas. Summit Auto Detailing is here to serve Pooler residents who want to keep their vehicles in top condition. Our mobile detailing services come to you, making it convenient to get your car cleaned without leaving home. Pooler's proximity to Savannah means many residents commute daily, and our services help protect your car from the wear and tear of daily driving. From basic washes to ceramic coatings, we offer a range of services to fit your needs and budget.",
+        "localContext": "Pooler is known for its family-friendly atmosphere and rapid growth, with many new neighborhoods and shopping centers.",
+        "nearbyAreas": [
+          "Savannah",
+          "Garden City",
+          "Bloomingdale"
+        ]
+      },
+      {
+        "city": "Garden City",
+        "slug": "garden-city-ga",
+        "state": "GA",
+        "content": "Garden City, GA, is a bustling community with a strong industrial presence and a growing residential population. Summit Auto Detailing provides top-notch auto care services to Garden City residents and businesses. Our detailing services are perfect for those who want to maintain their vehicles despite the area's industrial environment. We specialize in removing tough stains, odors, and contaminants that can accumulate in your car. Whether you're a busy professional or a family on the go, our services will keep your vehicle looking and feeling fresh.",
+        "localContext": "Garden City is home to the Port of Savannah, one of the busiest ports in the U.S., which can lead to increased exposure to dirt and pollutants for local vehicles.",
+        "nearbyAreas": [
+          "Savannah",
+          "Pooler",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Thunderbolt",
+        "slug": "thunderbolt-ga",
+        "state": "GA",
+        "content": "Nestled along the Wilmington River, Thunderbolt is a charming small town with a rich maritime history. Summit Auto Detailing is honored to serve Thunderbolt residents who appreciate the finer details in life. Our premium detailing services are designed to enhance and protect your vehicle's appearance, whether you own a classic boat or a modern car. Thunderbolt's coastal location means salt air can affect your vehicle's exterior, but our specialized treatments can help combat corrosion and keep your car looking its best. Let us help you maintain your vehicle's beauty in this picturesque community.",
+        "localContext": "Thunderbolt is famous for its seafood and waterfront properties, with many residents owning both cars and boats that require regular maintenance.",
+        "nearbyAreas": [
+          "Savannah",
+          "Wilmington Island",
+          "Whitemarsh Island"
+        ]
+      },
+      {
+        "city": "Bloomingdale",
+        "slug": "bloomingdale-ga",
+        "state": "GA",
+        "content": "Bloomingdale offers a peaceful, small-town atmosphere while being conveniently close to Savannah. Summit Auto Detailing provides exceptional auto care services to Bloomingdale residents who value quality and convenience. Our mobile detailing units can come to your home or workplace, saving you time and effort. Bloomingdale's rural surroundings mean your vehicle may encounter dirt roads and pollen, but our thorough cleaning services will keep it spotless. From basic maintenance to show-quality detailing, we have options to suit every vehicle and budget in this growing community.",
+        "localContext": "Bloomingdale is known for its agricultural roots and is transitioning to a more suburban character as Savannah's population expands outward.",
+        "nearbyAreas": [
+          "Pooler",
+          "Savannah",
+          "Port Wentworth"
+        ]
+      },
+      {
+        "city": "Port Wentworth",
+        "slug": "port-wentworth-ga",
+        "state": "GA",
+        "content": "Port Wentworth is a thriving community with a mix of industrial and residential areas. Summit Auto Detailing is committed to serving Port Wentworth residents with professional auto care services. The area's industrial activity can take a toll on your vehicle's appearance, but our specialized cleaning techniques can restore its shine. We understand the importance of maintaining your vehicle's value and appearance, especially in a community with such diverse environmental factors. Our team uses premium products and techniques to deliver outstanding results every time.",
+        "localContext": "Port Wentworth is home to numerous manufacturing and logistics facilities, which can expose vehicles to industrial pollutants and road debris.",
+        "nearbyAreas": [
+          "Savannah",
+          "Garden City",
+          "Bloomingdale"
+        ]
+      },
+      {
+        "city": "Wilmington Island",
+        "slug": "wilmington-island-ga",
+        "state": "GA",
+        "content": "Wilmington Island offers beautiful coastal living just minutes from downtown Savannah. Summit Auto Detailing provides exceptional auto care services to Wilmington Island residents who want to protect their vehicles from the coastal environment. Salt air, sand, and humidity can all affect your car's appearance and longevity, but our specialized detailing services can help combat these elements. Whether you're driving a luxury vehicle or a family SUV, we have the expertise to keep it looking its best. Our convenient mobile services mean you can enjoy professional detailing without leaving your island community.",
+        "localContext": "Wilmington Island is a popular residential area with many waterfront properties, where residents often need protection against saltwater corrosion.",
+        "nearbyAreas": [
+          "Savannah",
+          "Thunderbolt",
+          "Whitemarsh Island"
+        ]
+      },
+      {
+        "city": "Whitemarsh Island",
+        "slug": "whitemarsh-island-ga",
+        "state": "GA",
+        "content": "Whitemarsh Island is a picturesque community known for its natural beauty and upscale homes. Summit Auto Detailing is proud to serve Whitemarsh Island residents who demand the best for their vehicles. Our high-end detailing services are perfect for luxury car owners who want to maintain their vehicle's showroom finish. The island's coastal location presents unique challenges for vehicle maintenance, but our expert team knows how to protect your investment. From paint correction to leather conditioning, we offer comprehensive services to keep your car in pristine condition.",
+        "localContext": "Whitemarsh Island is an affluent community with many high-value vehicles that require specialized care and maintenance.",
+        "nearbyAreas": [
+          "Wilmington Island",
+          "Savannah",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Richmond Hill",
+        "slug": "richmond-hill-ga",
+        "state": "GA",
+        "content": "Richmond Hill is a fast-growing community south of Savannah with a strong military presence. Summit Auto Detailing is pleased to offer our services to Richmond Hill residents and military families. We understand the importance of maintaining your vehicle, especially for those who may need to relocate frequently. Our detailing services can help preserve your car's value and appearance, whether you're preparing for a move or just want to keep your daily driver looking great. Richmond Hill's suburban growth means more cars on the road, and we're here to help you stand out from the crowd.",
+        "localContext": "Richmond Hill is home to many military families from nearby Fort Stewart, with vehicles that need to withstand frequent relocations and coastal conditions.",
+        "nearbyAreas": [
+          "Savannah",
+          "Midway",
+          "Hinesville"
+        ]
+      },
+      {
+        "city": "Tybee Island",
+        "slug": "tybee-island-ga",
+        "state": "GA",
+        "content": "Tybee Island is Savannah's beach community, known for its relaxed atmosphere and ocean views. Summit Auto Detailing specializes in protecting vehicles from the harsh coastal environment of Tybee Island. Salt, sand, and sun can quickly deteriorate your car's appearance, but our protective coatings and regular detailing services can help prevent damage. Whether you're a local resident or own a vacation property on the island, we can help maintain your vehicle between beach trips. Our mobile services come to you, so you can spend more time enjoying island life and less time worrying about your car's condition.",
+        "localContext": "Tybee Island's beach environment is particularly harsh on vehicles, with salt air and blowing sand requiring frequent professional cleaning and protection.",
+        "nearbyAreas": [
+          "Savannah",
+          "Wilmington Island",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Hinesville",
+        "slug": "hinesville-ga",
+        "state": "GA",
+        "content": "Hinesville is a vibrant community centered around Fort Stewart, with a diverse population of military personnel and civilians. Summit Auto Detailing is honored to serve the Hinesville area with professional auto care services. We understand the unique needs of military families who may need to maintain their vehicles for frequent moves or deployments. Our detailing services can help protect your investment and keep your car looking its best, no matter where the military takes you. Hinesville's growing economy means more commuters on the road, and we're here to help you make a great impression wherever you go.",
+        "localContext": "As home to Fort Stewart, Hinesville has many service members who need reliable vehicle maintenance services that understand military life.",
+        "nearbyAreas": [
+          "Richmond Hill",
+          "Midway",
+          "Savannah"
+        ]
+      },
+      {
+        "city": "Midway",
+        "slug": "midway-ga",
+        "state": "GA",
+        "content": "Midway is a historic community between Savannah and Hinesville, with a mix of rural charm and modern convenience. Summit Auto Detailing provides quality auto care services to Midway residents who appreciate attention to detail. Our services are perfect for those who want to maintain their vehicle's appearance despite the area's country roads and agricultural surroundings. Whether you're commuting to Savannah or Fort Stewart, we can help keep your car clean and protected. Midway's small-town atmosphere doesn't mean you have to settle for less when it comes to your vehicle's care - we bring professional detailing right to your doorstep.",
+        "localContext": "Midway's location between major military installations means many residents are military families who need dependable vehicle maintenance services.",
+        "nearbyAreas": [
+          "Richmond Hill",
+          "Hinesville",
+          "Savannah"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "salt-air-protection-coating": "/images/service-salt-air-protection-coating.webp",
+      "hurricane-prep-detailing": "/images/service-hurricane-prep-detailing.webp",
+      "mold-resistant-interior-detailing": "/images/service-mold-resistant-interior-detailing.webp",
+      "vintage-paint-revitalization": "/images/service-vintage-paint-revitalization.webp",
+      "luxury-lease-return-detailing": "/images/service-luxury-lease-return-detailing.webp"
+    },
+    "servicesResponsive": {
+      "salt-air-protection-coating": {
+        "src": "/images/service-salt-air-protection-coating.webp",
+        "srcset": "/images/service-salt-air-protection-coating-400w.webp 400w, /images/service-salt-air-protection-coating-800w.webp 800w, /images/service-salt-air-protection-coating-1200w.webp 1200w, /images/service-salt-air-protection-coating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hurricane-prep-detailing": {
+        "src": "/images/service-hurricane-prep-detailing.webp",
+        "srcset": "/images/service-hurricane-prep-detailing-400w.webp 400w, /images/service-hurricane-prep-detailing-800w.webp 800w, /images/service-hurricane-prep-detailing-1200w.webp 1200w, /images/service-hurricane-prep-detailing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "mold-resistant-interior-detailing": {
+        "src": "/images/service-mold-resistant-interior-detailing.webp",
+        "srcset": "/images/service-mold-resistant-interior-detailing-400w.webp 400w, /images/service-mold-resistant-interior-detailing-800w.webp 800w, /images/service-mold-resistant-interior-detailing-1200w.webp 1200w, /images/service-mold-resistant-interior-detailing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "vintage-paint-revitalization": {
+        "src": "/images/service-vintage-paint-revitalization.webp",
+        "srcset": "/images/service-vintage-paint-revitalization-400w.webp 400w, /images/service-vintage-paint-revitalization-800w.webp 800w, /images/service-vintage-paint-revitalization-1200w.webp 1200w, /images/service-vintage-paint-revitalization.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-lease-return-detailing": {
+        "src": "/images/service-luxury-lease-return-detailing.webp",
+        "srcset": "/images/service-luxury-lease-return-detailing-400w.webp 400w, /images/service-luxury-lease-return-detailing-800w.webp 800w, /images/service-luxury-lease-return-detailing-1200w.webp 1200w, /images/service-luxury-lease-return-detailing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
